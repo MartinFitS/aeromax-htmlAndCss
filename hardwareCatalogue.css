@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.hardwareHeader{
+    width: 100%;
+    height: 300px;
+}
+
+.headerImageHardware{
+    background-size: cover;
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    background-image: url("./img/mice.png");
+}
+
+.hardwareHeader h1 {
+    color: rgb(82, 82, 82);
+    padding-top: 131px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container_products-hardware{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+
+.div_products-hardware{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-products_hardware {
+    width: 23%;
+    height: 200px;
+    display: inline-block;
+}
+
+.card-products_hardware img{
+    width: 100%;
+    height: auto;
+}
+
+.card-products_hardware__content{
+    width: 100%;
+    height: auto;
+}
+
+.card-products_hardware__content h3{
+   text-align: center;
+   font-weight: 100;
+   padding-bottom: 10px;
+   color: rgb(94, 92, 92);
+}
+
+.card-products_hardware__content h4{
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: rgb(43, 126, 180);
+ }

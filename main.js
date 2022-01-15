@@ -28,4 +28,5 @@ window.addEventListener("scroll", ()=>{
         animacion6.style.animation = "moverDeArribaHaciaAbajo 1s ease-out"
         animacion7.style.animation = "moverDeAbajoHaciaArriba 1s ease-out"
     }
+
 })

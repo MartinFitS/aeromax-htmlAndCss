@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+@keyframes moverDeDerechaAIzquierda {
+    0%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes moverDeIzquierdaADerecha {
+    0%{
+        transform: translate(-100%);
+    }
+}
+
+@keyframes moverDeArribaHaciaAbajo {
+0%{
+    transform: translatey(-100%);
+}
+}
+
+@keyframes moverDeAbajoHaciaArriba {
+0%{
+    transform: translatey(100%);
+}
+}
+
+::-webkit-scrollbar {display: none;}
+
+.Principalcatalogue{
+    width: 100%;
+    height: 400px;
+}
+
+.imageCatalogueHeader{
+    margin: 0 auto;
+    background-size: cover;
+    width: 60%;
+    height: 500px;
+    background-image: url("./img/LaptopCatalogue.png");
+}
+
+.imageCatalogueHeader h1{
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+    padding-top: 30%;
+}
+
+.catalogueContendDiv{
+    margin-top: 300px;
+    width: 100%;
+    height: 656px;
+}
+
+.catalogueContentDivCenter{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+
+}
+
+.catalogueContentDivCenter h1{
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+.catalogueContentDivCenter p{
+    text-align: justify;
+    padding-bottom: 35px;
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+.divCardsCatalogue {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.divCardsCatalogue img{
+    
+    opacity: .8;
+    border-radius: 30px;
+}
+
+.divCardsCatalogue img:hover{
+    transition: 350ms;
+    opacity: 1;
+}
+.cardCatalogue{
+    margin-right: 30px;
+    width: 100%;
+    height: auto;
+}
+.cardCatalogue h3{
+    padding-top: 10px;
+    font-weight: 100;
+    text-align: center;
+}
